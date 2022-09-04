@@ -1032,26 +1032,26 @@
     "static/js/514.716f821d.chunk.js.map": "/esbuild-practice/static/js/514.716f821d.chunk.js.map",
     "static/js/515.dfa9e686.chunk.js": "/esbuild-practice/static/js/515.dfa9e686.chunk.js",
     "static/js/515.dfa9e686.chunk.js.map": "/esbuild-practice/static/js/515.dfa9e686.chunk.js.map",
-    "main.css": "/esbuild-practice/static/css/main.bf0dba01.chunk.css",
-    "main.js": "/esbuild-practice/static/js/main.829bf062.chunk.js",
-    "main.js.map": "/esbuild-practice/static/js/main.829bf062.chunk.js.map",
+    "main.css": "/esbuild-practice/static/css/main.5ce2303f.chunk.css",
+    "main.js": "/esbuild-practice/static/js/main.002b74e3.chunk.js",
+    "main.js.map": "/esbuild-practice/static/js/main.002b74e3.chunk.js.map",
     "runtime-main.js": "/esbuild-practice/static/js/runtime-main.a05bbc77.js",
     "runtime-main.js.map": "/esbuild-practice/static/js/runtime-main.a05bbc77.js.map",
     "static/css/518.2c07d069.chunk.css": "/esbuild-practice/static/css/518.2c07d069.chunk.css",
-    "static/js/518.80662760.chunk.js": "/esbuild-practice/static/js/518.80662760.chunk.js",
-    "static/js/518.80662760.chunk.js.map": "/esbuild-practice/static/js/518.80662760.chunk.js.map",
+    "static/js/518.096e2781.chunk.js": "/esbuild-practice/static/js/518.096e2781.chunk.js",
+    "static/js/518.096e2781.chunk.js.map": "/esbuild-practice/static/js/518.096e2781.chunk.js.map",
     "index.html": "/esbuild-practice/index.html",
     "static/css/518.2c07d069.chunk.css.map": "/esbuild-practice/static/css/518.2c07d069.chunk.css.map",
-    "static/css/main.bf0dba01.chunk.css.map": "/esbuild-practice/static/css/main.bf0dba01.chunk.css.map",
-    "static/js/518.80662760.chunk.js.LICENSE.txt": "/esbuild-practice/static/js/518.80662760.chunk.js.LICENSE.txt",
+    "static/css/main.5ce2303f.chunk.css.map": "/esbuild-practice/static/css/main.5ce2303f.chunk.css.map",
+    "static/js/518.096e2781.chunk.js.LICENSE.txt": "/esbuild-practice/static/js/518.096e2781.chunk.js.LICENSE.txt",
     "static/js/82.dd29ff85.chunk.js.LICENSE.txt": "/esbuild-practice/static/js/82.dd29ff85.chunk.js.LICENSE.txt",
     "static/media/all.min.css": "/esbuild-practice/static/media/fa-solid-900.46fdbd2d.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.a05bbc77.js",
     "static/css/518.2c07d069.chunk.css",
-    "static/js/518.80662760.chunk.js",
-    "static/css/main.bf0dba01.chunk.css",
-    "static/js/main.829bf062.chunk.js"
+    "static/js/518.096e2781.chunk.js",
+    "static/css/main.5ce2303f.chunk.css",
+    "static/js/main.002b74e3.chunk.js"
   ]
 }
