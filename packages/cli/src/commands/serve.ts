@@ -7,6 +7,8 @@ interface LocalApiError{
     code:string;
 }
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 /**[] -- Optional
  * <> -- Required
  * Documentation located at: https://www.npmjs.com/package/commander 
@@ -21,7 +23,11 @@ export const serveCommand = new Command()
     };
     try{
         const dir = path.join(process.cwd(),path.dirname(filename));
-        await serve(parseInt(options.port),path.basename(filename),dir);
+        await serve(
+            parseInt(options.port),
+            path.basename(filename),
+            dir,
+            !isProduction);
         console.log(`
             Opened ${filename}. Navigate to http://localhost:${options.port} to edit the file.
         `)

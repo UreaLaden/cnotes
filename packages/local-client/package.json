@@ -1,7 +1,7 @@
 {
-  "name": "cnotes",
+  "name": "local-client",
   "version": "0.1.0",
-  "homepage": "https://UreaLaden.github.io/cnotes",
+  "homepage": "https://UreaLaden.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
