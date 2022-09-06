@@ -12,4 +12,8 @@
 
 All of your changes get saved to the file you opend your Coder Notes with. So if you ran `npx coder-notes serve test.js -p 5000`, all of the text and code you write will be saved to the `test.js` file. Additionally you have the option to specify a port to run the application on.
 
-![](cNote.png)
+![](utils/cNote.png)
+
+---
+
+![](utils/cNotes.gif)
