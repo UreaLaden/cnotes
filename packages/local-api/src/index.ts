@@ -18,7 +18,7 @@ export const serve = (
             logLevel:'silent'
         }))
     }else{
-        const packagePath = require.resolve('local-client/build/index.html');
+        const packagePath = require.resolve('@coder-notes/local-client/build/index.html');
         const staticPath = express.static(path.dirname(packagePath)) ;
         app.use(staticPath);
     }
