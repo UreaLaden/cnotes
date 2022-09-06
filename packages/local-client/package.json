@@ -1,11 +1,13 @@
 {
   "name": "@coder-notes/local-client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://UreaLaden.github.io/",
   "publishConfig": {
-    "access":"public"
+    "access": "public"
   },
-  "files":["build"],
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@monaco-editor/react": "3.7.5",
@@ -65,5 +67,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }  
+  }
 }
