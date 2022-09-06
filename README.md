@@ -10,4 +10,4 @@ This is an interactive coding environment. You can write Javascript, see it exec
 
 All of your changes get saved to the file you opend your Coder Notes with. So if you ran `npx coder-notes serve test.js`, all of the text and code you write will be save to the `test.js` file.
 
-![Coder Notes]('cNote.png')
+![](cNote.png)
