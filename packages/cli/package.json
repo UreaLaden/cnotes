@@ -1,6 +1,6 @@
 {
   "name": "coder-notes",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "files": [
     "dist"
@@ -20,7 +20,7 @@
     "@coder-notes/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@coder-notes/local-api": "^1.1.0",
+    "@coder-notes/local-api": "^1.1.2",
     "@types/node": "^18.7.15",
     "commander": "^9.4.0",
     "esbuild": "0.8.26",
