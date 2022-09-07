@@ -49,7 +49,7 @@ export const createCellsRouter = (filename:string,dir:string) => {
                 // Write the cells into the file
                 const obj = []
                 for (var i = 0;i<cells.length;i++){
-                    obj.push('/*' + cells[i]['id'] + '*/\n')
+                    obj.push('\n/* Cell ID: ' + cells[i]['id'] + '*/\n')
                     if(cells[i]['type'] === 'text'){
                         var comment = '/*' + cells[i]['content'] + '*/\n';
                         obj.push(comment)
