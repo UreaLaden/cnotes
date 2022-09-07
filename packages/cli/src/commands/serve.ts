@@ -29,7 +29,7 @@ export const serveCommand = new Command()
             dir,
             !isProduction);
         console.log(`
-            Opened ${filename}. Navigate to http://localhost:${options.port} to edit the file.
+            Your notes will be saved in: ${filename}. Navigate to http://localhost:${options.port} to edit.
         `)
     }catch(error){
         if (isLocalApiError(error)){
