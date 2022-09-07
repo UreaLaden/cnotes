@@ -52,7 +52,18 @@ const createCellsRouter = (filename, dir) => {
             // Serialize them (convert to safe format)
             const { cells } = req.body;
             // Write the cells into the file
-            yield promises_1.default.writeFile(fullPath, JSON.stringify(cells), 'utf8');
+            const obj = [];
+            for (var i = 0; i < cells.length; i++) {
+                obj.push('/*' + cells[i]['id'] + '*/\n');
+                if (cells[i]['type'] === 'text') {
+                    var comment = '/*' + cells[i]['content'] + '*/\n';
+                    obj.push(comment);
+                }
+                else {
+                    obj.push(cells[i]['content'] + '\n');
+                }
+            }
+            yield promises_1.default.writeFile(fullPath, obj.join(''), 'utf8');
             res.send({ status: 'ok' });
         }
         catch (error) {

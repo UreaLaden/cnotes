@@ -47,7 +47,17 @@ export const createCellsRouter = (filename:string,dir:string) => {
                 const {cells}:{cells:Cell[]} = req.body;
                 
                 // Write the cells into the file
-                await fs.writeFile(fullPath,JSON.stringify(cells),'utf8');
+                const obj = []
+                for (var i = 0;i<cells.length;i++){
+                    obj.push('/*' + cells[i]['id'] + '*/\n')
+                    if(cells[i]['type'] === 'text'){
+                        var comment = '/*' + cells[i]['content'] + '*/\n';
+                        obj.push(comment)
+                    }else{
+                        obj.push(cells[i]['content']+'\n')
+                    }    
+                }
+                await fs.writeFile(fullPath,obj.join(''),'utf8');
                 res.send({status:'ok'});
             }catch(error){
                 if(isLocalApiError(error)){
