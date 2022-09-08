@@ -1,6 +1,6 @@
 {
   "name": "@coder-notes/local-client",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "homepage": "https://UreaLaden.github.io/",
   "publishConfig": {
     "access": "public"
