@@ -4,6 +4,8 @@ import { ActionType } from '../action-types';
 import {saveCells} from '../action-creators';
 import {RootState} from '../reducers';
 
+/**Here we delay when the request to save cells is triggered
+ */
 export const persistMiddleware = (
     {dispatch,getState}
     :
